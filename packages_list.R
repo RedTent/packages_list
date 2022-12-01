@@ -22,6 +22,7 @@ my_packages <- c(
  "webshot",
  "covr",
  "pkgdown",
+ "quarto",
 
  "DT",
  "trend",
