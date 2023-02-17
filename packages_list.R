@@ -14,6 +14,7 @@ my_packages <- c(
  "openxlsx",
  "tidyverse",
  "fpp3",
+ "timetk",
  "datapasta",
  "servr",
  "gt",
