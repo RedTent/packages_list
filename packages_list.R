@@ -42,6 +42,7 @@ my_packages <- c(
  "ggforce",
  "ggtext",
  "gganimate",
+ "gifski",
  "ggrepel",
  "ggbeeswarm",
  "plotly",
