@@ -24,7 +24,7 @@ my_packages <- c(
  "covr",
  "pkgdown",
  "quarto",
-
+ "bslib",
  "DT",
  "trend",
  "vegan",
@@ -58,7 +58,7 @@ my_packages <- c(
 pak::pak(my_packages)
 
 pak::pak(
-        c("luisDVA/annotater", 
+        c(
           "RedTent/HHSKwkl"
         )
 )
@@ -86,7 +86,8 @@ niet_meer_nodig <- c(
  "rgdal",
  "gstat",
  "curl",
- "hexbin"
+ "hexbin",
+ "luisDVA/annotater"
 
 )
 
