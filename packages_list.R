@@ -1,34 +1,48 @@
 install.packages("pak")
 
 my_packages <- c(
-
+  
+  # Utils
  "devtools",
  "usethis",
- "bookdown",
- "tinytex",
  "microbenchmark",
  "roxygen2",
  "testthat",
- "shiny",
- "htmlwidgets",
  "openxlsx",
- "tidyverse",
- "fpp3",
- "timetk",
- "datapasta",
- "servr",
- "gt",
  "pdftools",
  "pak",
- "webshot",
  "covr",
- "pkgdown",
+ "httr2",
+ "fs",
+ "here",
+ "memoise",
+ "",
+ 
+ 
+ # Documents and apps
  "quarto",
- "bslib",
+ "bookdown",
+ "tinytex",
+ "htmlwidgets",
+ "gt",
  "DT",
+ "webshot",
+ "bslib",
+ "crosstalk",
+ 
+ "shiny",
+ "servr",
+ "reactlog",
+ 
+ # Data
+ "tidyverse",
+ "arrow",
+ "fpp3",
+ "datapasta",
+ "timetk",
+ "pkgdown",
  "trend",
  "vegan",
-
  "twn",
  "aquodom",
 
@@ -51,7 +65,6 @@ my_packages <- c(
  "RColorBrewer",
 
  # Modelling
- "tidymodels"
 
 )
 
@@ -66,6 +79,7 @@ pak::pak(
 # onderstaande packages worden vaak vanzelf al meegenomen
 niet_meer_nodig <- c(
  # Statistics
+ "tidymodels"
  "modelr",
  "caret",
  "e1071",
