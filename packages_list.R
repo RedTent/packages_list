@@ -16,6 +16,7 @@ my_packages <- c(
  "fs",
  "here",
  "memoise",
+ "odbc",
  
  
  # Documents and apps
