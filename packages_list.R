@@ -16,7 +16,6 @@ my_packages <- c(
  "fs",
  "here",
  "memoise",
- "",
  
  
  # Documents and apps
@@ -79,7 +78,7 @@ pak::pak(
 # onderstaande packages worden vaak vanzelf al meegenomen
 niet_meer_nodig <- c(
  # Statistics
- "tidymodels"
+ "tidymodels",
  "modelr",
  "caret",
  "e1071",
