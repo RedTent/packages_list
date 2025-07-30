@@ -62,6 +62,7 @@ my_packages <- c(
  "plotly",
  "colorspace",
  "RColorBrewer",
+ "ragg"
 
  # Modelling
 
